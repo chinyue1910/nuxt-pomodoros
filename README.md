@@ -12,7 +12,7 @@
 
 ### 鬧鈴選擇
 
-![](https://i.imgur.com/9FzEg3d.png)
+![](https://i.imgur.com/PGGLi9Y.png)
 
 ## 開發工具
 * Nuxt.js
