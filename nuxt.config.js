@@ -104,6 +104,6 @@ export default {
     }
   },
   router: {
-    base: '/pomodoros/'
+    base: '/nuxt-pomodoros/'
   }
 }
