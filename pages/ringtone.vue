@@ -63,6 +63,21 @@ export default {
 </script>
 
 <style lang="scss">
+@mixin sm {
+  @media (min-width: 576px) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
 .text-style {
   font-weight: bolder;
   filter: drop-shadow(0px 0px 1px antiquewhite);
@@ -79,6 +94,17 @@ export default {
   }
   input {
     color: darkgrey !important;
+  }
+  .plyr__volume{
+    display: none;
+    @include sm{
+      display: flex;
+    }
+  }
+}
+.player{
+  .plyr{
+    min-width: 100px;
   }
 }
 </style>

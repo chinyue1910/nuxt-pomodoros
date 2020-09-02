@@ -163,9 +163,9 @@ export default {
   background: linear-gradient(#e5e4e4, #c6c6c6);
   box-shadow: 1px 1px 5px black;
   position: relative;
-  transform: scale(0.7);
+  transform: scale(0.6);
   @include sm {
-    transform: scale(0.9);
+    transform: scale(0.8);
   }
   @include md{
     transform: scale(1);
